@@ -69,11 +69,83 @@ int main() {
 	{
 		printf("Tesekkur Ederiz.");
 	}	
-/*
-	
+*/
+
+
+
+/*	
 	//Soru33:Girilen bir sayýdaki rakamlarýn toplamýný bulan program.
+	int sayi=0, birler=0, toplam=0;
+	
+	printf("Sayi Degeri Giriniz: ");
+	scanf("%d",&sayi);
+	
+ 	while( sayi > 0 )
+ 	{
+ 		birler = sayi%10;
+ 		toplam = toplam + rakam;
+ 		sayi = sayi/10;
+	}
+ 
+ 	printf("\nGirilen Degerin Rakamlari toplami %i",toplam);
+*/	
+
+
+
+/*
 	//Soru34:Girilen bir sayinin “mükemmel sayi” olup olmadýðýný bulan program.
+
+	//MÜKEMMEL SAYI NEDÝR? 
+	//Kendisi hariç bütün pozitif bölenlerinin toplamý kendisine eþit olan sayýlara mükemmel sayý denir. 6 bir mükemmel sayýdýr. 
+	//Çünkü 6'nýn pozitif bölenleri 1,2,3 ve 6'dýr. Kendisi hariç diðer bölenlerini toplarsak 1+2+3=6 eder.
+	//Kaynak : http://www.bilimist.com/blog-41/mukemmel-sayilar-nedir-.html
+
+	int sayi=0, i=0, toplam=0;
+	
+	printf("\n==========Mukemmel Sayi Kontrolu==========\n");
+	
+	printf("Kontrol Edilecek Olan Sayi Degerini Giriniz: \n"),
+	scanf("%d",&sayi);
+	
+	for(i=1;i<sayi;i++)
+	{
+		if(sayi%i==0)
+		{
+			toplam=toplam+i;
+		}
+	}
+	if(sayi==toplam)
+	{
+		printf("Sayi Mukemmel Sayidir.");
+	}
+	else
+	{
+		printf("Sayi Mukemmel Sayi Degildir.");
+	}
+*/	
+	
 	//Soru35:Girilen bir sayý asal sayý ise, bundan sonraki 10 asal sayýyý da listeleyen program.
+	int i=0, sayi=0, sayac=0;
+	
+	printf("Sayi Degerini Giriniz: ");
+	scanf("%d",&sayi);
+	
+	for(i=2;i<sayi;i++)
+	{
+		if(sayi%i==0)
+		{
+			sayac++;
+		}
+	}
+	if(sayac==0)
+	{
+		printf("Sayi Asaldir.");
+	}
+	else
+	{
+		printf("Sayi Asal Degildir.");
+	}
+	
 	//Soru36:Kullanýcýnýn vereceði sayýda öðrencinin puanlarýný sorarak bu puanlarýn toplamýný ve ortalamasýný bulan program.
 	//Soru37:Girilen 10 sayý içerisinde en büyük ve en küçük olan sayýlarý bulan program.
 	//Soru38:Kullanýcýnýn girdiði 5 sayýyý küçükten büyüðe doðru sýralayýp listeleyen program
