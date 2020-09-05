@@ -253,26 +253,27 @@ int main() {
 
 /*
 	//Soru22:Girilen bir sayýnýn asallýðýný kontrol eden program.
-	int sayi=0 ,i=0;
+	int sayi=0 ,i=0, sayac=0;
 	
 	printf("Sayi Degerini Giriniz: ");
 	scanf("%d",&sayi);
 	
 	for(i=2;i<sayi;i++)
 	{
-		if(sayi%i ==0)
+		if(sayi%i==0)
 		{
-			printf("Sayi Asal Degildir.");
-			break;
-		}
-		else
-		{
-			printf("Sayi Asaldir.");
-			break;
+			sayac++;
 		}
 	}
+	if(sayac == 0)
+	{
+		printf("Sayi Asaldir.");
+	}
+	else
+	{
+		printf("Sayi Asal Degildir.");
+	}
 */
-
 
 
 /*
