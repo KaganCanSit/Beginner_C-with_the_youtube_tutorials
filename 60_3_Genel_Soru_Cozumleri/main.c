@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 
 
 int main() {
@@ -198,17 +199,140 @@ int main() {
 
 
 
-	
+/*	
 	//Soru53:Girilen kelime de kullanýcýðýnýn istediði karakterden kaç tane olduðunu bulan program.
+	char metin[200], aranan;
+	int metinuzunluk=0, i=0, sayac=0;
 
+	printf("Metninizi Giriniz: ");
+	gets(metin);
+	
+	printf("Saymak Istediginiz Karakteri Giriniz: ");
+	scanf("%c",&aranan);
+	
+	metinuzunluk = strlen(metin);
+
+	for(i=0;i<metinuzunluk;i++)
+	{
+		if(aranan == metin[i])
+		{
+			sayac++;
+		}
+	}
+
+	printf("Aradiginiz Karakterden Metin Icerisinde %d Tane Var.",sayac);
+*/
+
+
+
+/*	
+	//Soru54:Kullanýcý tarafýndan girilen bir metnin tersini veren program.
+	char metin[200], yenimetin[200];
+	int uzunluk=0, i=0;
+	
+	printf("Metninizi Giriniz: ");
+	gets(metin);
+	
+	uzunluk=strlen(metin);
+	
+	for(i=0;i<uzunluk;i++)
+	{
+		yenimetin[i]=metin[uzunluk-1-i];
+	}
+		
+	printf("\nEski Metin: %s",metin);
+	printf("\nYeni Metin: %s",yenimetin);
+*/
+
+
+/*
+	//Soru55:Girilen bir metnin harflerini alfabetik olarak sýralayan program.
+	char metin[200], araci;
+	int i=0, n=0, uzunluk=0;
+	
+	printf("Metninizi Giriniz: ");
+	gets(metin);
+	
+	uzunluk=strlen(metin);
+	
+	for(i=0;i<uzunluk-1;i++)
+      {
+            for(n=i+1;n<uzunluk;n++)
+         	 {
+              if(metin[i]>metin[n])
+              {
+                  araci = metin[i];
+                  metin[i] = metin[n];
+                  metin[n] = araci;
+              }
+          }
+      }
+	
+	printf("%s",&metin);
+*/
+
+
+
+/*
+	//Soru56:Kullanýcý tarafýndan girilen bir metindeki harfleri büyük harflere çeviren program.
+	//Kilit nokta ASCII tablosuna göre karakter arasýnda 32 fark vardýr. Örneðin A=65 iken a=97'dir.
+	char metin[250], karakter=' ';
+	int i=0, uzunluk=0;
+	
+	printf("Metininizi Giriniz: ");
+	gets(metin);
+	
+	//Tanýmlanan karakter null deðilse ASCII tablosuna göre karakter deðerini 32 azalt.
+	while(metin[i]!='\0')
+	{	
+		//Kilit Nokta: Eðer karakter ' '(boþluk) ise i'yi bir arttýrarak sonraki karaktere geç. Yoksa boþluk sayýlmaz. Örn Merhaba Dunya çýktýsý ===> MERHABA olur sadece.
+		if(metin[i]==' ')
+		{
+			i++;
+		}
+		
+		karakter=metin[i];
+		metin[i]=karakter-32;
+		i++;
+	}
+
+	printf("%s",metin);
+*/
+
+
+
+
+	//Soru57:Kullanýcý tarafýndan girilen bir metindeki kelimelerin baþ harflerini büyük yazan program.
+	char metin[250], karakter=' ';
+	int i=0, uzunluk=0;
+	
+	printf("Turkce Karakter Bulunmadan Kucuk Harfler Ile Metininizi Giriniz: ");
+	gets(metin);
+	
+	uzunluk=strlen(metin);
+	
+	//Tanýmlanan karakter null deðilse ASCII tablosuna göre karakter deðerini 32 azalt.
+	while(metin[i]!='\0')
+	{	
+		if(metin[i]==' ')
+		{
+			i++;
+			karakter=metin[i];
+			metin[i]=karakter-32;
+		}
+		//while döngüsünün son bulmasý için var.
+		i++;
+	}
+	
+	//Baþlangýç Harfi Ýçin!
+	if(metin[0])
+	{
+		karakter=metin[0];
+		metin[0]=karakter-32;
+	}
+	
+	printf("%s",metin);
 
 	
-	//Soru54:Kullanýcý tarafýndan girilen bir metnin tersini veren program.
-	//Soru55:Girilen bir metnin harflerini alfaebtik olarak sýralayan program.
-	//Soru56:Kullanýcý tarafýndan girilen bir metindeki harfleri büyük harflere çeviren program.
-	//Soru57:Kullanýcý tarafýndan girilen bir metindeki kelimelerin baþ harflerinibüyük yazan program.
-	//Soru58:Kullanýcý tarafýndan girilen bir desimal sayýyý binary formata ddönüþtüren program.
-	//Soru59:Kullanýcýdan öðrencilerin adý ve yaþýný alarak bunlarý küçükten büyüðe sýralayan program.
-	//Soru60: Kullanýcý tarafýndan girilen sayýnýn asal olup olmadýðýný fonksiyon kulllanarak hesaplayan program.	
 	return 0;
 }
