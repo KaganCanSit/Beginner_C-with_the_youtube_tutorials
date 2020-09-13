@@ -4,9 +4,6 @@
 
 
 int main() {
-	
-	//Burada çözmeye çalýþtýðým sorulara "http://www.ckutuphanesi.com/tum-ornek-projeler/" adresi üzerinden ulaþabilirsiniz. Gayet yararlý ve emekle hazýrlamýþlar, emeklerine saðlýk.
-	
 
 /*	
 	//Soru1: "C programalama dünyasýna hoþgeldiniz." mesajýný ekrana yazdýran programý yazýnýz.

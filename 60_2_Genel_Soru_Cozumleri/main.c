@@ -3,7 +3,6 @@
 
 
 int main() {
-	//Burada çözmeye çalýþtýðým sorulara "http://www.ckutuphanesi.com/tum-ornek-projeler/" adresi üzerinden ulaþabilirsiniz. Gayet yararlý ve emekle hazýrlamýþlar, emeklerine saðlýk.
 
 /*	
 	//Soru31:Kuulanýcý negatif bir sayý girene kadar kullanýcýdan sayý girmesini isteyen ve negatif sayý girildiðinde ekrana yazdýran program.
@@ -521,7 +520,7 @@ int main() {
 
 
 
-/*	
+	
 	//Soru45:Kullanýcýnýn gireceði iki adet 3*3'lük bir matrisin toplamýný ekrana yazdýran program.
 	int matris[3][3], matris2[3][3], toplam[3][3], i=0, j=0, tekrar=0;
 	
@@ -582,7 +581,7 @@ int main() {
 	{
 		printf("Isleminiz Sonlanmistir. Tesekkür Ederiz.");	
 	}
-*/
+
 	
 	return 0;
 }
