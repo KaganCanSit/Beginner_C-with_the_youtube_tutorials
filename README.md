@@ -11,9 +11,8 @@ Yukarıda "Yahya Kemal" in dediği gibi hayal etmek ve bu hayaller doğrultusund
 
 
 Bende yazılım dünyasına giriş yapabilmek için C dilini baz olarak yola buradan başladım. Github komutlarını da anlamak ve öğrenmek için yazmış olduğum kodlarımı da sizlerle paylaşmak istedim.</br>
-Bunun yanı sıra yaptığım hataları görebilmek için insanlarla paylaşmak, fikir ve düşüncelerini almanın beni 1 adım daha ileri götüreceğini düşünüyorum.<br/>
-
-Kendim yeni yola çıkan bir mühendis adayıyım. Bundan dolayı hatalarım olabilir, olmalıdır da.<br/>
+Bunun yanı sıra yaptığım hataları görebilmek için insanlarla paylaşmak, fikir ve düşüncelerini almanın beni bir adım daha ileri götüreceğini düşünüyorum.<br/>
+Bambaşka bir evren olan yazılım için yeni bir mühendis adayıyım. Bundan dolayı hatalarım olabilir, olmalıdır da.<br/>
 Herhangi bir mantık vb. hatamı görürseniz, lütfen bana ulaşıp söylemekten çekinmeyin. <br/>
 
 Sağlıcakla kalın...<br/>
