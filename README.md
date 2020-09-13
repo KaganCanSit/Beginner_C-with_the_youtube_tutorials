@@ -5,7 +5,7 @@ Youtube(Murat Yücedağ) derslerinin yardımıyla kendi kendime öğrenmek için
 ![Image](https://images.unsplash.com/photo-1562516155-e0c1ee44059b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80)<br/>
 
 ## "*Yürü! Hür maviliği bittiği son hadde kadar. İnsan alemde hayal ettiği müddetçe yaşar."* <br/>
-                                                                                                  *Yahya Kemal Beyatlı*
+                                                                         *Yahya Kemal Beyatlı*
                                                                                                   
 Yukarıda "Yahya Kemal" in dediği gibi hayal etmek ve bu hayaller doğrultusunda yol almak insan amacının gayesi. </br>
 
